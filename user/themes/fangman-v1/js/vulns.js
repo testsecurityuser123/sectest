@@ -1770,13 +1770,5 @@
 		window.skrollr = skrollr;
 	}
  
- let untrusted_ajax_res = document.write(location.replace("https://www.w3schools.com"));
-    document.getElementById("temp").innerHTML=untrusted_ajax_res;
-	
-app.get('/search', (req, res) => {
-const results = db.search(req.query.product);
-if (results.length === 0) {
-  return res.send('<p>No results found for "' + req.query.product + '"</p>');
-
 
 }(window, document));
